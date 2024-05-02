@@ -1,0 +1,51 @@
+.logo{
+  width: 40px;
+  margin-right: 10px;
+  
+}
+
+.thumbnail-product{
+  height: 150px !important;
+  max-width: 150px !important;
+
+}
+
+
+.sale-real-price  {
+text-decoration: line-through;
+}
+
+.sale-offer-price {
+  color: green;
+
+}
+
+#direccion {
+  max-height: 400px; 
+  overflow-y: auto; 
+}
+
+.user-image{
+max-width: 800px;
+
+
+}
+
+
+.objeto {
+  margin-top: 20px; /* ajusta este valor según sea necesario */
+}
+
+.button-container button {
+  width: 48%; /* Ancho del botón */
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos a los lados */
+  width: 50%; /* Ancho completo del contenedor */
+  
+}
+
+.framed-image {
+  border: 50px solid black; /* Grosor y color del borde */
+  border-radius: 5px; /* Borde redondeado (opcional) */
+}
+

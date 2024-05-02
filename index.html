@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="author" content="elias" />
+    <meta name="description" content="venta de productos de mascotas" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Progamers - Tienda de videojuegos</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--cabecera con menu superior principal-->
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <img class="logo" src="img/channels4_profile.jpg" alt="" />
+          <a class="navbar-brand" href="index.html">Progamers</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="registro.html">Registrarse</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="ingresar.html">Iniciar sesion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="carrito.html">Carrito</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="miscompras.html">Mis compras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="mis_datos.html">Mis datos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="administracion.html">Administrar</a>
+              </li>
+              
+              
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Buscar
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--contenido principal de la pagina-->
+    <main role="main">
+      <div class="container">
+        <section class="text-center">
+          <div id="carouselExample"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/tekken88.PNG"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/2.PNG"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/3.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- productos de la tienda  -->
+
+    <div class="album py-2 bg-light">
+      <div class="container">
+        <div id="product-item" class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (5).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $30.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $25.990
+                    </span>
+                  </div>
+                  <br>
+                  Resident Evil 4 
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                     Resident Evil 4 llega a PlayStation®4 en Full 1080p HD con aún más imágenes por segundo.
+                     Esta obra maestra revolucionaria supuso un punto de inflexión en la franquicia, 
+                     puesto que por primera vez se empleó la perspectiva de tercera persona por encima del hombro. 
+                     Con una emocionante trama que transcurre tras la destrucción de Umbrella Corporation, 
+                     Resident Evil 4 no solo cambió para siempre la franquicia Resident Evil, 
+                     sino que revolucionó todo el género.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga.jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $74.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $55.990
+                    </span>
+                  </div>
+                  <br>
+                  Tekken 8 PS5
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    Clasificación T.
+                    Año de lanzamiento: 2024.
+                    Desarrollado por Bandai Namco.
+                    Género: lucha.
+                    Tamaño del archivo: 50 GB.
+                    Se encuentra disponible para jugar online.
+                    Es apto para múltiples jugadores.
+                    Entretenimiento digital.
+                    Diversión asegurada.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (1).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $30.000
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $15.990
+                    </span>
+                  </div>
+                  <br>
+                  Dark Souls Remastered
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+
+                    Características principales:
+                    • Un universo profundo y oscuro
+                    • Cada final supone un nuevo comienzo
+                    • Compleja jugabilidad con muchas posibilidades
+                    • Te sientes realizado al ir aprendiendo y dominando el juego
+                    • Multijugador (hasta 6 jugadores con servidores dedicados)
+
+
+                  </div>
+                  <br>
+                  <b>En stock 2 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (3).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    Elden Ring
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $19.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $15.990
+                    </span>
+                  </div>
+                  <br>
+                  Shadow Of The Colossus
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+
+
+                    Formato: Físico
+                    Plataforma: PS4
+                    Clasificación T.
+                    Año de lanzamiento: 2018.
+                    Desarrollado por Bluepoint Games.
+                    Género: acción.
+                    Tamaño del archivo: 33 GB.
+                    La memoria RAM mínima que necesitas para reproducir tu juego es de 8 GB.
+                    Entretenimiento digital
+                    Diversión asegurada.
+                  </div>
+                  <br>
+                  <b>En stock 10 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (6).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    Minecraft
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $8.990
+                    </span>
+                  </div>
+                  <br>
+                  
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    Explora mundos generados al azar y construye cosas increíbles,
+                    desde la más humilde de las casas hasta el más majestuoso de los castillos.
+                    Juega en el modo creativo con recursos ilimitados o extrae en las profundidades del mundo en el modo supervivencia, 
+                    creando armas y armaduras para defenderte de las criaturas peligrosas. Esta versión te permitirá jugar en distintos dispositivos, 
+                    acceder a multitud de contenidos a través de la tienda del juego y conseguir todas las actualizaciones.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (9).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                   CyberPunk
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $20.590
+                    </span>
+                  </div>
+                  <br>
+                  CyberPunk 2077
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en la megalópolis de Night City,
+                    donde te pondrás en la piel de un mercenario o una mercenaria ciberpunk y vivirás su lucha a vida o muerte por la supervivencia.
+                    Mejorado para la nueva generación y con contenido adicional gratuito. Personaliza tu personaje y tu estilo de juego a medida que aceptas trabajos, 
+                    te labras una reputación y desbloqueas mejoras. Las relaciones que forjes y las decisiones que tomes darán forma al mundo que te rodea.
+                    Aquí nacen las leyendas.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (10).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $55.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $45.990
+                    </span>
+                  </div>
+                  <br>
+                  Alan Wake 2
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    Del estudio que trajo Control, 
+                    llega un juego de terror psicológico y de supervivencia con dos protagonistas en dos mundos muy diferentes.
+                    aga Anderson es una hábil agente del FBI a la que han llamado para investigar una serie de asesinatos rituales en el pequeño pueblo de Bright Falls del Noroeste del Pacífico. 
+                    Alan Wake es un escritor que ha pasado años atrapado en el lugar oscuro, una tenebrosa realidad alternativa que puede cambiar de forma con sus palabras. 
+                    Aunque nunca se hayan visto, los dos están conectados a través de las distintas realidades, y sus acciones pueden alterar sus mundos.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (11).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $30.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $17.990
+                    </span>
+                  </div>
+                  <br>
+                  RED DEAD REDEMPTION
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    De los creadores de Grand Theft Auto V y Red Dead Redemption,
+                    Red Dead Redemption 2 es la extensa historia de la vida en Estados Unidos
+                    a principios de la era moderna. 
+                  </div>
+                  <br>
+                  <b>En stock 22 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (13).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    Pokemon Arceus
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $65.990
+                    </span>
+                  </div>
+                  <br>
+                  Pokemon Arcecus
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    Explora parajes salvajes inmensos donde te aguardan un sinfín de descubrimientos en Leyendas Pokémon:
+                     Arceus para Nintendo Switch. Observa,
+                     atrapa e investiga a los Pokémon salvajes en este juego de acción y rol que se desarrolla en el pasado, 
+                     cuando no era habitual que los humanos y los Pokémon convivieran en armonía.
+                  </div>
+                  <br>
+                  <b>En stock 5 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (14).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                     
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $45.990
+                    </span>
+                  </div>
+                  <br>
+                  Just Dance 2024
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                    
+                    ¡Baila y comparte momentos emocionantes durante todo el año con la plataforma de videojuegos musicales
+                    número uno de todos los tiempos!
+                    Just Dance 2024 Edition cuenta con 40 canciones, desde los últimos éxitos a los clásicos más queridos, 
+                    ¡incluidos "Flowers" de Miley Cyrus, "Tití Me Preguntó" de Bad Bunny, "How You Like That" de BLACKPINK y 
+                    "I Wanna Dance With Somebody" de Whitney Houston!
+                  </div>
+                  <br>
+                  <b>En stock 40 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (15).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                    OFERTA
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      $27.990
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $20.000
+                    </span>
+                  </div>
+                  <br>
+                  Resident Evil Village
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                   
+                    Ambientado unos pocos años después de los eventos horribles del Resident Evil 7: Biohazard, 
+                    aclamado por la crítica, la nueva historia comienza con Ethan Winters y su esposa Mia viviendo tranquilamente en una nueva ubicación,
+                    libres de sus pesadillas pasadas. 
+                    Justo cuando están construyendo su nueva vida juntos, la tragedia les cae encima de nuevo.
+                  </div>
+                  <br>
+                  <b>En stock 10 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="text-center">
+              <img class="card-img-top thumbnail-product " src="img/descarga (20).jpg" alt="" />
+            </div>
+
+            <div class="card mb-4">
+              
+              <div class="card-body">
+                <p class="cart-text">
+                  <div class="lead text-secondary fw-bold">
+                   Baldur's Gate 3
+                  </div>
+                  <br>
+                  <div class="lead text-danger ">
+                    <SPAN class="sale-real-price fw-bold">
+                      
+                    </SPAN>
+                    <span class="sale-offer-price fw-bold">
+                      $65.990
+                    </span>
+                  </div>
+                  <br>
+                  Baldur's Gate 3
+                  <br>
+                  <b>Descripcion</b>
+                  <div class="text-truncate">
+                   
+                    Reúne a un grupo y emprendan juntos una campaña épica en este RPG de próxima generación ambientado en el mundo de Calabozos y Dragones,
+                     que llega de la mano de los creadores de Divinity: Original Sin II.
+                     La tierra de Faerûn está bajo asedio. Tras ser capturado e infectado por los azotamentes invasores,
+                     ¿te resistirás a su corrupción o aceptarás al poder misterioso que empieza a crecer en tu interior.
+                  </div>
+                  <br>
+                  <b>En stock 10 Unidades</b>          
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      Comprar
+
+                    </button>
+                    <button type="button class="btn btn-sm btn-outline-secondary">
+                      Agregar al carrito
+
+                    </button>
+                    <a href="ficha.html" class="btn btn-sm btn-outline-secondary">Ficha</a>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          
+          
+         
+        </div>
+      </div>
+    </div>
+
+   <!-- pie de pagina -->
+    <footer id="footer">
+      <div class="container text-center">
+        <p>
+          <a href="#">Volver arriba</a>
+          &nbsp;&nbsp;
+        
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+        </svg>
+        WhatsApp +56 9 1235 1234
+        &nbsp;&nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+        </svg>
+        Facebook
+        &nbsp;&nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+          <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+        </svg>
+        Instagram
+        &nbsp;&nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+        </svg>
+        Twitter
+        &nbsp;&nbsp;
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-compass-fill" viewBox="0 0 16 16">
+          <path d="M15.5 8.516a7.5 7.5 0 1 1-9.462-7.24A1 1 0 0 1 7 0h2a1 1 0 0 1 .962 1.276 7.5 7.5 0 0 1 5.538 7.24m-3.61-3.905L6.94 7.439 4.11 12.39l4.95-2.828 2.828-4.95z"/>
+        </svg>
+        Providencia 821
+        
+        </p>
+      </div>
+    </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

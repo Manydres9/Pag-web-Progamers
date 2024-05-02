@@ -1,0 +1,13 @@
+{
+    "editor.tabSize": 2,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.multiRootWorkspaceName": "",
+    "files.exclude": {
+        "**/desktop.ini": true,    
+    },
+    "liveServer.settings.host": "127.0.0.2"
+
+
+
+
+}
